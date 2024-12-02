@@ -1,0 +1,549 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(236, 240, 241);
+}
+
+*{
+    text-decoration: none;
+}
+
+h1{
+    margin-left: 3%;
+    font-size: 30px;
+    
+}
+
+#title{
+    color: black;
+}
+
+.Navbar{
+    position: relative;
+    margin-right: 5%;
+    margin-top: -20px;//
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgb(154, 148, 148);
+    box-shadow: 1px 1px 2px 3px rgb(155, 153, 153);
+
+}
+
+.Navbar ul{
+    display: inline-block;
+    
+}
+.Navbar li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 100%;
+    top:-70px;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+.Navbar button{
+    position: relative;
+    left: 110%;
+    top:-70px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Navbar #b{
+  background-color: gold;
+  border: 1px gold;
+}
+
+.Navbar #b:hover{
+  background-color:#051a78;
+}
+
+.Navbar #a{
+  border: 1px solid black;
+}
+
+.Navbar #a:hover{
+  background-color: gold;
+}
+
+.Navbar #b a:hover{
+  color:white;
+}
+
+.Navbar a{
+    color: black;
+}
+
+#slog{
+    position: relative;
+    left: 25%;
+    /* top:1px; */
+    font-size: 20px;
+    
+}
+
+.Navbar #mini{
+    position: relative;
+    left: 4%;
+    top:-25px;
+    font-size: 12px;
+    
+}
+
+.Navbar #un{
+    text-decoration: underline;
+}
+
+.content{
+    background-color: hsl(240, 100%, 50%);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px; 
+    height: 90px;
+}
+
+h2{
+    position: relative;
+    margin-left: 10%;
+    top:30px;
+    font-size: 30px;
+    color: white;
+}
+
+.content button  {
+    position: relative;
+    left: 70%;
+    margin: 5px;
+    top:-80px;
+    border-radius: 5px;
+    border-color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.content a{
+    color: black;
+    position: relative;
+}
+
+.content #link{
+    position: relative;
+    left: 73%;
+    top:-60px;
+    color: white;
+}
+
+.content #link:hover{
+  color: #384a9a;
+}
+
+.content ul{
+    position: relative;
+    top:-20px;
+    margin-left: 30%;
+    font-weight: 700;
+    font-size: 20px;
+    color: gold;
+}
+
+.content button{
+  position: relative;
+  top: -60px;
+}
+
+#gold{
+    background-color: gold;
+    border-color: gold;
+    position: relative;
+    top: -60px;
+}
+
+#gold a:hover{
+  color: white;
+}
+
+#comment{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 18px;
+    color:#051a78
+}
+
+#comment ul{
+    position:relative;
+    left: -25px;
+}
+
+.tbox1{
+    position: relative;
+    top: 20px;
+    background-color: #7ad5d5;
+    height: 170px;
+    width: 45%;
+    padding-right: 20px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+
+.tbox1 button{
+    margin:5px;
+    padding:5px;
+    border-radius: 5px;
+    position: relative;
+    top:50px;
+    left:100px;
+}
+
+.tbox1 input{
+    font-size: 15px;
+    border-radius: 5px;
+    padding:5px;
+    position: relative;
+    top:50px;
+    left:70px;
+    width:480px;
+
+}
+
+#b1, #b2{
+    position: relative;
+    left:423px;
+}
+
+#b1{
+    border-color: white;
+}
+
+#b2{
+    background-color: gold;
+    border-color:gold
+}
+
+#b2:hover{
+  color: white;
+}
+
+#b3{
+    margin-left: -30px;
+    width: 80px;
+    background-color: gold;
+    border-color: gold;
+}
+
+.tbox2{
+    background-color: #7ad5d5;
+    height: 170px;
+    width: 45%;
+    padding-right: 20px;
+    margin-left: 30px;
+    border-radius: 7px;
+    position: relative;
+    left: 50%;
+    top:-168px;
+}
+
+.tbox2 h3{
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+
+.tbox2 a{
+    position: relative;
+    left: 25px;
+    top:20px;
+    line-height: 30px;
+    color: white;
+    text-spacing-trim: 10px;
+}
+
+h4{
+    position: relative;
+    top:-200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color:#384a9a;
+}
+
+.job-section h2 {
+    color:#384a9a;
+    font-size: 44px;
+    position: relative;
+    text-align: center;
+    top:-120px;
+    left: -80px;
+  }
+  
+  .job-section {
+    margin: 20px;
+  }
+  
+  .job-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+    scroll-behavior:smooth;
+    position: relative;
+    top: -150px;
+  }
+  
+  .job-card {
+    min-width: 250px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .job-label {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    border-bottom-left-radius: 510px;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .in-office {
+    background-color: #ffc107;
+  }
+  
+  .remote {
+    background-color: gold;
+  }
+  
+  .hybrid {
+    background-color: gold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .apply-button {
+    background-color: #00c6c6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    
+  }
+  
+  .apply-button:hover {
+    background-color: #00a0a0;
+  }
+
+  .company-section p{
+    color: black;
+    text-align: center;
+    position: relative;
+    top:-130px;
+    font-size: 23px;
+  }
+
+  .company-frame{
+    position: relative;
+    top:-130px;
+    padding-left: 13%;
+  }
+
+  .company-frame img{
+    border: 1px solid black;
+    height: 90px;
+    width: 150px;
+  }
+
+  .apply p{
+    color: black;
+    position: relative;
+    top:-50px;
+    left: -300px;
+  }
+  
+  p1{
+    color: blue;
+    position: relative;
+    top:-65px;
+    left:20.5%;
+  }
+
+  #google{
+    height: 130px;
+    position: relative;
+    top: -240px;
+    left: 20%;
+  }
+
+  #apple{
+    height: 50px;
+    position: relative;
+    top: -280px;
+    left: 20%;
+  }
+
+  #recruitment{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: -150px;
+  }
+
+  .footer1{
+    width: 50.5%;
+    height: 150px;
+    background-color: rgb(151, 181, 190);
+    position: relative;
+    top: -100.2px;
+    
+  }
+
+  .footer2{
+    width: 49%;
+    height: 150px;
+    background-color: rgb(151, 181, 190);
+    position: relative;
+    top: -269px;
+    left: 51%;
+    
+  }
+
+  footer h3{
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+
+  .footer1 a{
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 10px;
+    top: 30px;
+  }
+
+  .footer2 a{
+    position: relative;
+    left: 70px;
+    top: 30px;
+    color: black;
+  }
+
+  .footer3{
+    background-color:rgb(151, 181, 190) ;
+    width: 100%;
+    height: 400px;
+    padding: 0%;
+    margin: 0%;
+    margin-top: -269px;
+    border-top: 1px solid black;
+  }
+
+.footer3 ul{
+    display: inline;
+    color: black;
+    position: relative;
+    top:40px;
+    left: 30%;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.count ul{
+    position: relative;
+    top:50px;
+    left: 30.5%;
+    font-size: 25px;
+    font-weight: 900;
+    color:#3232a4;
+}
+
+#line1{
+    position: relative;
+    top:90px;     
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+#line2{
+    position: relative;
+    top: 250px;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+.footer4 p{
+  text-align: justify;
+  font-size: 20px;
+  width: 80%;
+  position: relative;
+  left: 2%;
+  top:100px;
+}
+
+.footer4 p1{
+  position: relative;
+  top: 40px;
+  left:60%;
+  font-size: 20px;
+  color: black;
+}
+
+.footer4 img{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 60%;
+  top: 45px;
+}
+
+#logo{
+  width: 190px;
+  height: 70px;
+  position: relative;
+  left: 62%;
+  top: 30px;
+}
+
+#bottom1{
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  top: 80px;
+  text-align: center;
+  left: 10%;
+}
+
+#bottom2{
+  padding: 0%;
+  margin: 0%;
+  top:100px;
+  position: relative;
+  text-align: center;
+  left: 10%;
+}
+
